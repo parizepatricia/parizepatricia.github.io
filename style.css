@@ -1,0 +1,29 @@
+/* je suis un comentaire*/
+@font-face{  
+         font-family: IBMPlexSans;
+         src: url(fonts/IBMPlexSans-Bold.woff2) format(woff2);
+         font-weight: 800;
+         font-weight:normal;
+                  }
+
+
+
+body  { 
+    
+
+    #p1{
+    color:black
+       }
+font-family: IBMPlexSans;
+src: url(fonts/IBMPlexSans-Light.woff2) format(woff2);
+font-style: normal; font-weight: normal; font-size: medium;
+
+
+
+
+
+background-color: dodgerblue;
+
+    
+
+}

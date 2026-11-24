@@ -13,11 +13,18 @@
          font-style: normal;
         }
 
+header {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: top;
+    padding: 20px;
+}
 
 body  { 
     font-family: IBMPlexSans;
     background-color: dodgerblue;
-    font-size: 50px;}
+    font-size: 40px;}
 
 img{
     max-width: 100%;
@@ -26,10 +33,18 @@ img{
 
 }
 
+.grid{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+
 .home-link{
     color:black;
     text-decoration: none;
-             font-weight: 1000;
+    font-weight: 1000;
 
 }
 
@@ -40,8 +55,9 @@ img{
 .fond-noir{
 background-color: #000000;
 color:  rgb(217, 223, 225);
- font-family: IBMPlexSans;
-         font-weight: 900;
+font-family: IBMPlexSans;
+font-size: 150px;
+grid-auto-columns: (4fr,2fr);
         
 }
 
@@ -49,7 +65,6 @@ color:  rgb(217, 223, 225);
 color:  rgb(217, 223, 225);
 background-color: #000000;
 
-        
 }
 
 .about-link{
@@ -60,7 +75,7 @@ background-color: #000000;
 
 .dessins-vectoriel{
     background:  
-    rgb(38, 79, 137);
+    rgb(20, 186, 120);
 }
 
 .grilles{
@@ -69,4 +84,21 @@ background-color: #000000;
 
 .croquis{
     background: grey;
+}
+
+.light{
+     
+         font-family: IBMPlexSans;
+         src: url(fonts/IBMPlexSans-Light.woff2) format(woff2);
+         font-weight: 200;
+         font-style: small;
+}
+
+.mobiloil-font{
+    background-color: rgb(0, 0, 0);
+    color: rgb(217, 223, 225);
+}
+
+.icon{
+    :   ;
 }

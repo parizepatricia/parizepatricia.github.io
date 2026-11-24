@@ -99,6 +99,8 @@ background-color: #000000;
     color: rgb(217, 223, 225);
 }
 
-.icon{
-    :   ;
+.flèche{
+  font-weight: 900;
+  color: rgb(217, 223, 225);
+  text-decoration: none;
 }

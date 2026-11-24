@@ -2,28 +2,71 @@
 @font-face{  
          font-family: IBMPlexSans;
          src: url(fonts/IBMPlexSans-Bold.woff2) format(woff2);
-         font-weight: 800;
-         font-weight:normal;
-                  }
+         font-weight: 900;
+         font-style: normal;
+        }
 
+        @font-face{  
+         font-family: IBMPlexSans;
+         src: url(fonts/IBMPlexSans-Light.woff2) format(woff2);
+         font-weight: 200;
+         font-style: normal;
+        }
 
 
 body  { 
-    
+    font-family: IBMPlexSans;
+    background-color: dodgerblue;
+    font-size: 50px;}
 
-    #p1{
-    color:black
-       }
-font-family: IBMPlexSans;
-src: url(fonts/IBMPlexSans-Light.woff2) format(woff2);
-font-style: normal; font-weight: normal; font-size: medium;
+img{
+    max-width: 100%;
+    height: auto;
+    align: center
 
+}
 
+.home-link{
+    color:black;
+    text-decoration: none;
+             font-weight: 1000;
 
+}
 
+.home-link:visited{
+    color:black;
+}
 
-background-color: dodgerblue;
+.fond-noir{
+background-color: #000000;
+color:  rgb(217, 223, 225);
+ font-family: IBMPlexSans;
+         font-weight: 900;
+        
+}
 
-    
+.fond-noir:visited{
+color:  rgb(217, 223, 225);
+background-color: #000000;
 
+        
+}
+
+.about-link{
+    background: dodgerblue;
+      font-family: IBMPlexSans;
+         font-weight: 900;
+}
+
+.dessins-vectoriel{
+    background:  
+    rgb(38, 79, 137);
+}
+
+.grilles{
+    background: #94c21f;
+}
+
+.croquis{
+    background: grey;
 }

@@ -1,13 +1,13 @@
 /* je suis un comentaire*/
 @font-face{  
-         font-family: IBMPlexSans;
+         font-family: 'IBMPlexSans';
          src: url(fonts/IBMPlexSans-Bold.woff2) format(woff2);
          font-weight: 900;
          font-style: normal;
         }
 
         @font-face{  
-         font-family: IBMPlexSans;
+         font-family: 'IBMPlexSans';
          src: url(fonts/IBMPlexSans-Light.woff2) format(woff2);
          font-weight: 200;
          font-style: normal;
@@ -16,15 +16,64 @@
 header {
     display: grid;
     grid-template-columns: auto auto;
-    justify-content: space-between;
-    align-items: top;
-    padding: 20px;
+    justify-self: space-between;
+    position: relative;
+    align-items: initial;
+    padding: 50px;
 }
 
 body  { 
-    font-family: IBMPlexSans;
+    font-family: 'IBMPlexSans';
     background-color: dodgerblue;
-    font-size: 40px;}
+     font-size: 50px;
+    font-weight: bold;
+}
+body p { 
+    font-family: 'IBMPlexSans';
+    background-color: dodgerblue;
+     font-size: 50px;
+    font-weight: bold;
+}
+
+h1{
+    font-family: 'IBMPlexSans';
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h2{
+    font-family: 'IBMPlexSans';
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h3{
+    font-family: 'IBMPlexSans';
+    font-size: 70px;
+    font-weight: bold;
+}
+
+h4{
+    font-family: 'IBMPlexSans';
+    font-size: 90px;
+    font-weight: bold;
+}
+
+h2 main{
+font-family: 'IBMPlexSans';
+    font-size: 50px;
+    font-weight: bold;
+    grid-template-columns: auto auto;
+    justify-self: space-between;
+    align-items: top;
+}
+
+
+p {
+    font-family: 'IBMPlexSans';
+    font-size: 50px;
+    font-weight: bold;
+}
 
 img{
     max-width: 100%;
@@ -44,7 +93,8 @@ img{
 .home-link{
     color:black;
     text-decoration: none;
-    font-weight: 1000;
+    font-size: 30px;
+    font-weight: 900;
 
 }
 
@@ -58,6 +108,7 @@ color:  rgb(217, 223, 225);
 font-family: IBMPlexSans;
 font-size: 150px;
 grid-auto-columns: (4fr,2fr);
+
         
 }
 
@@ -88,7 +139,7 @@ background-color: #000000;
 
 .light{
      
-         font-family: IBMPlexSans;
+         font-family: 'IBMPlexSans';
          src: url(fonts/IBMPlexSans-Light.woff2) format(woff2);
          font-weight: 200;
          font-style: small;
@@ -100,15 +151,17 @@ background-color: #000000;
 }
 
 .flèche{
-  font-weight: 900;
+  font-size: 30px;
   color: rgb(217, 223, 225);
   text-decoration: none;
+   font-weight: 900;
 }
 
 .flèche-1{
-  font-weight: 900;
+  font-size: 30px;
   color: black;
   text-decoration: none;
+   font-weight: 900;
 }
 
 .home-link:hover{
